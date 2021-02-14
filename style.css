@@ -1,0 +1,71 @@
+main{
+	font-family: Verdana;
+	text-align: center;
+	overflow-y: auto;
+	overflow-x: hidden;
+	width: 100%;
+}
+
+h1{
+	font-size: 3em;
+	color: #008CBA;
+	text-decoration: underline;
+}
+
+p{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+form{
+	padding: 1em;
+	width: 100%;
+}
+
+#movements{
+	text-align: center;
+	margin: auto;
+	font-size: 1.5em;
+}
+
+#message{
+	width: 30%;
+	height: 10em;
+	font-size: 1.5em;
+	text-transform:uppercase;
+}
+
+.button{
+	padding: 1em;
+	width: 10em;
+	margin: 1em;
+	font-weight: bold;
+	font-size: 1.5em;
+	background-color: #008CBA;
+	color: #FFFFFF;
+	border-radius: 8px;
+	border: none;
+	outline: none;
+}
+
+.button:focus{
+	border: 1px solid #0FCCB8;
+}
+.button:active{
+	border: 1px solid #0FCCB8;
+}
+
+#result{
+	width: 100%;
+	font-size: 1.5em;
+	margin: auto;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+#resultMessage{
+	font-weight: normal;
+	font-size: 1em;
+	width: 50%;
+	margin: auto;
+}

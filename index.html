@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>prueba</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<main>
+		<form>
+			<h1>CAESAR CYPHER</h1>
+			<p>INGRESE LA CANTIDAD DE MOVIMIENTOS</p>
+			<input type="number" name="movements" min="1" max="25" value="1" id="movements">
+			<p>INGRESE SU MENSAJE</p>
+			<textarea id="message"></textarea>
+			<br>
+			<button type="button" class="button" onclick="code('cypher')">Codificar</button>
+			<button type="button" class="button" onclick="code('decypher')">Decodificar</button>
+		</form>
+
+		<div id="result">
+		</div>
+	</main>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
